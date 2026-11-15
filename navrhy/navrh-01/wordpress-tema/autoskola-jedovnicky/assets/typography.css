@@ -1,0 +1,67 @@
+
+/* Consistent typography and text colours. */
+:root {
+  --ink: #141b26;
+  --ink-soft: #2a3645;
+  --muted: #344253;
+  --blue: #204eb1;
+  --blue-dark: #163c8d;
+  --gold: #8b6c2d;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI Variable", "Segoe UI", system-ui, sans-serif;
+}
+body { color: var(--ink); font-size: 18px; line-height: 1.62; }
+h1, h2, h3, .brand__text, .button, .main-nav, .hero__discipline strong {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI Variable", "Segoe UI", system-ui, sans-serif;
+}
+h1, h2, h3 { text-wrap: balance; }
+.hero h1 { font-weight: 700; letter-spacing: -.06em; line-height: 1.02; }
+.hero h1 span, h2 span { color: var(--blue); }
+.section-heading h2, .approach h2, .reviews h2, .location h2, .faq h2 {
+  color: var(--ink); font-weight: 680; letter-spacing: -.055em; line-height: 1.08;
+}
+.course-card h3 { color: var(--ink); letter-spacing: -.035em; }
+.brand__text strong { color: #334255; font-size: 12px; letter-spacing: .08em; }
+.brand__text span { color: var(--ink); font-size: 17px; font-style: normal; font-weight: 650; letter-spacing: -.02em; }
+.hero__lead, .section-heading > p:last-child, .approach__intro > p:not(.eyebrow),
+.location__copy > p:not(.eyebrow), .faq__intro > p:last-child, .course-description,
+.step p, .review-card > p, .faq-list details p { color: #293747; line-height: 1.65; }
+.eyebrow, .hero__eyebrow, .hero__discipline-label, .course-label,
+.course-extras__intro, .footer-contact > span, .footer-address > span, .footer-legal > span {
+  color: #39495d; font-weight: 700; letter-spacing: .065em;
+}
+.proof-source, .editor-note, .review-footnote, .review-card__label,
+.gallery-card figcaption small, .location__address small, .site-footer__bottom {
+  color: #39495d; line-height: 1.6;
+}
+.button { font-weight: 700; letter-spacing: .005em; }
+.button--blue { color: #fff; background: var(--blue); }
+.button--blue:hover { background: var(--blue-dark); }
+.text-link, .location-map__link, .hero__phone > span { color: var(--blue); }
+.final-cta .eyebrow--light, .final-cta__copy > p:last-child,
+.final-cta__actions small { color: #edf1f7; }
+.final-cta h2 { color: #fff; letter-spacing: -.055em; line-height: 1.05; }
+.final-cta h2 span { color: #b9ccff; }
+.proof-star, .stars, .review-stars, .rating-card__stars { color: #896322; }
+.proof-number { color: #3b4b5e; font-family: inherit; font-style: normal; font-weight: 650; }
+@media (max-width: 680px) {
+  .hero h1 { font-size: clamp(56px, 15vw, 78px); }
+  .hero__lead { font-size: 19px; }
+  .section-heading h2, .approach h2, .reviews h2, .location h2, .faq h2 {
+    font-size: clamp(38px, 10.5vw, 54px);
+  }
+  .section-heading > p:last-child, .approach__intro > p:not(.eyebrow),
+  .location__copy > p:not(.eyebrow), .faq__intro > p:last-child,
+  .course-description, .step p, .review-card > p, .faq-list details p { font-size: 18px; }
+  .hero__actions .button, .button, .text-link { font-size: 16px; }
+  .final-cta h2 { font-size: clamp(50px, 13vw, 66px); }
+}
+
+.brand__text span { font-family: inherit; }
+
+/* Keep the transition from the introduction to the course list compact. */
+.hero { display: block; padding-bottom: 44px; }
+.hero + .courses { padding-top: 50px; }
+@media (max-width: 680px) {
+  .hero { padding-bottom: 24px; }
+  .hero + .courses { padding-top: 44px; }
+}

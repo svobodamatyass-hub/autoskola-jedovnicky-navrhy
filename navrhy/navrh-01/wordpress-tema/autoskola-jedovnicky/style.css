@@ -1,0 +1,10 @@
+/*
+Theme Name: Autoškola Michal Jedovnický
+Description: Jednoduchá jednostránková šablona pro Autoškolu Michal Jedovnický.
+Version: 1.0.20
+Requires at least: 6.0
+Requires PHP: 7.4
+Text Domain: autoskola-jedovnicky
+*/
+.privacy-link { padding-block: 0 20px; font-size: 15px; }
+.privacy-link a { color: #26323e; text-decoration: underline; }
