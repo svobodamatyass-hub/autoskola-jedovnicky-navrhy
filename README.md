@@ -4,7 +4,7 @@ Repozitář pro tři vizuální směry jednostránkového webu. První návrh je
 
 | Varianta | Směr | Stav |
 | --- | --- | --- |
-| [Návrh 01](navrhy/navrh-01/) | Současný čistý návrh s modrým akcentem | Dokončený statický náhled a zdroj WordPress šablony |
+| [Návrh 01](navrhy/navrh-01/README.md) | Současný čistý návrh s modrým akcentem | Dokončený statický náhled a zdroj WordPress šablony |
 | Návrh 02 | Směr zatím neurčen | Nevytvořen |
 | Návrh 03 | Směr zatím neurčen | Nevytvořen |
 
