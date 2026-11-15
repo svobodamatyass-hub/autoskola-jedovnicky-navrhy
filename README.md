@@ -1,12 +1,12 @@
 # Autoškola Michal Jedovnický — návrhy webu
 
-Tři vizuální směry jednostránkového webu. Všechny pracují se stejným obsahem, ceníkem, kontaktem a fotografiemi autoškoly, aby šlo porovnávat především design a použitelnost.
+Repozitář pro tři vizuální směry jednostránkového webu. První návrh je dokončený; směr zbývajících dvou nejdřív společně určíme.
 
 | Varianta | Směr | Stav |
 | --- | --- | --- |
 | [Návrh 01](navrhy/navrh-01/) | Současný čistý návrh s modrým akcentem | Dokončený statický náhled a zdroj WordPress šablony |
-| [Návrh 02](navrhy/navrh-02/) | Fotografický a typografický směr | Připravuje se |
-| [Návrh 03](navrhy/navrh-03/) | Kontrastní moderní směr | Připravuje se |
+| Návrh 02 | Směr zatím neurčen | Nevytvořen |
+| Návrh 03 | Směr zatím neurčen | Nevytvořen |
 
 Veřejný náhled Návrhu 01: https://autoskola-jedovnicky-navrh.svobodamatyass.chatgpt.site/
 
