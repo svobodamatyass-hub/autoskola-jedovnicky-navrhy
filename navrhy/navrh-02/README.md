@@ -1,6 +1,6 @@
 # Návrh 02 — minimalistický černobílý směr
 
-Samostatný responzivní návrh připravený od nuly. Vizuální směr přenáší principy Apple HIG: systémové písmo, černobílou paletu, čitelnou hierarchii, jasné akce a střídmý pohyb. Používá skutečné fotografie školy a nebalí font SF Pro. HTML, CSS i JavaScript jsou nové a nejsou odvozené od Návrhu 01.
+Samostatný responzivní návrh připravený od nuly. Vizuální směr přenáší principy Apple HIG: systémový font stack, černobílou paletu, vzdušnou typografii, stručné texty, jasné akce a jemný pohyb s podporou `prefers-reduced-motion`. Používá skutečné fotografie školy a nebalí font SF Pro. HTML, CSS i JavaScript jsou nové a nejsou odvozené od Návrhu 01.
 
 Funkční neveřejný náhled: https://autoskola-jedovnicky-navrh-02.svobodamatyass.chatgpt.site/
 
