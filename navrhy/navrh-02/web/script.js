@@ -47,7 +47,7 @@ document.querySelectorAll('a[href="#top"]').forEach(link => {
     event.preventDefault();
     closeMenu();
     header?.classList.remove("is-hidden");
-    window.scrollTo({ top: 0, behavior: reduceMotion.matches ? "instant" : "smooth" });
+    window.scrollTo({ top: 0, behavior: reduceMotion.matches ? "auto" : "smooth" });
     history.replaceState(null, "", location.pathname + location.search);
   });
 });
